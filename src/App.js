@@ -1,10 +1,16 @@
 import './App.css';
+import Header from './components/Layout/Header';
+import {Fragment} from 'react';
+//import Products from './components/Products/Products';
 
 function App() {
   return (
-    <div>
-      <h2>No to zaczynamy!</h2>
-    </div>
+    <Fragment>
+        <Header/>
+        <main>
+            {/*<Products />*/}
+        </main>
+    </Fragment>
   );
 }
 
